@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تسابيح</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Gulzar&family=Lobster&family=Montserrat:wght@800&family=Poppins:wght@700&family=Ysabeau+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Gulzar&family=Lobster&family=Montserrat:wght@800&family=Poppins:wght@800&family=Rakkas&family=Ysabeau+SC:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container text-center">
+        <h1 class="mt-5">برنامج تسبيح</h1>
+        <div class="row justify-content-center">
+          <div class="col-md-5 my-5 order-sm-1">
+            <button onclick="incrementCounter()" id="incrementButton" class="btn btn-danger btn-lg btn-block w-50">عدد</button>
+            <p class="fw-bolder my-5" id="count">0</p>
+          </div>
+          <div class="col-md-5 my-5 order-sm-2">
+            <button onclick="generateQuote()" class="btn btn-success btn-lg btn-block w-50">اختر التسبيحة</button>
+            <p class="fw-bolder my-5" id="tasbe7a"></p>
+          </div>
+          <div class="col-md-12 my-5 order-sm-3">
+            <button onclick="generateQuotee()" class="btn btn-success btn-lg btn-block w-50">اذكار الصباح</button>
+            <p class="fw-bolder p-5" id="Azkar"></p>
+          </div>
+        </div>
+      </div>
+    <script src=".//bootstrap.bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

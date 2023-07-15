@@ -1,0 +1,25 @@
+h1 {
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-size: 5rem !important;
+    font-family: 'Gulzar', serif;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+  }
+  
+  button {
+    font-size: 1.5rem !important;
+    font-family: 'Rakkas', cursive !important;
+  }
+  
+  body {
+    background-image: url(5540822.jpg);
+    background-size: cover;
+  }
+  
+  p {
+    font-size: 1.5rem !important;
+    font-family: 'Rakkas', cursive !important;
+    font-size: 4rem !important;
+  }
+  
